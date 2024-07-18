@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,7 @@ namespace Dictionary
         {
             while (true)
             {
-                int choice = LanguageDictionary.IntegerInput("\nDictionary Application Menu:\n1. Create a dictionary\n2. Add a word and its translation\n3. Replace a word or its translation\n4. Delete a word or a translation\n5. Delete dictionary\n6. Search for translation of a word\n7. View all word\n0. Exit\nSelect an option: ");
+                int choice = LanguageDictionary.IntegerInput("Dictionary Application:\n\n1. Create a dictionary\n2. Add a word and its translation\n3. Replace a word or its translation\n4. Delete a word or a translation\n5. Delete dictionary\n6. Search for translation of a word\n7. View all word\n0. Exit\n\nSelect an option: ");
 
                 try
                 {
